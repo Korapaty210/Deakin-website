@@ -13,21 +13,27 @@ p {
   font-size: 14px;
   font-family: Arial
 }
-
 .site-header {
   display: flex;
   align-items: center;
-  background-color: #003057;
+  background-color: blue;
   padding: 16px;
 }
-
 .logo {
   height: 60px;
   margin-right: 16px;
 }
-
 .site-header h1 {
   color: #ffffff;
   font-size: 20px;
   margin: 0;
 }
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial
+}
+tr:nth-child(odd) {background-color: #f2f2f2;}
+
+
